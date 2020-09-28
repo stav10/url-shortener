@@ -84,7 +84,7 @@ def index():
     if request.method == 'POST':
         keys = [url.key for url in URL.query.all()]
         key = validate_key(keys)
-        input_url = request.form['content']
+        input_url = request.form['content'].lower()
         input_url = fix_url(input_url)
         check_existens = URL.query.filter_by(content=input_url).first()
 
