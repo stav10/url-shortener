@@ -1,0 +1,49 @@
+body, html {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.content {
+    margin: 0 auto;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+form {
+    margin-top: 20px;
+    horizontal-align: middle;
+}
+
+.submit{
+    float:left;
+    background-color: #9ACD32;
+}
+
+.url{
+    float:left;
+    width:100%;
+    border:2px solid #aaa;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+  }
+
+  .url:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+  }
+
+.success{
+    margin: 100px;
+    text-align: center;
+}
+
+.url_messege{
+
+}

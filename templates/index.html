@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block head%}
+<title>Url Shortener</title>
+{% endblock %}
+
+{% block body%}
+<div class="content">
+    <h1>Short Url</h1>
+    <h2>Paste the URL to be shortened</h2>
+    <form action="/" method="post">
+        <input class="url" type="text" name="content" id="content">
+        <input class="submit" type="submit" name="value" id="Add Task">
+    </form>
+
+</div>
+{% endblock %}
